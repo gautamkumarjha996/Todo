@@ -36,7 +36,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                    <!-- @php($i=1) -->
+                    <!-- @php($i=1) ---->
                   @foreach($tasklists as $tasklist)
                       <tr>
                         <th scope="row">{{$tasklists->firstItem()+$loop->index}}</th>
